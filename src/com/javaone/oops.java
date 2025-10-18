@@ -16,22 +16,17 @@ package com.javaone;
 //     d2.name = "Joy";
 //     d2.walk();
 
-
-        Complex num1 = new Complex();
-        num1.a = 3;
-        num1.b = 5;
-        num1.print();
+//
+//        Complex num1 = new Complex();
+//        num1.a = 3;
+//        num1.b = 5;
+//        num1.print();
     }
 
 }
 
 
-class Complex {
-     int a, b;
-     void print() {
-         System.out.println(a+" + "+b+"i");
-     }
-}
+
 
 
 
