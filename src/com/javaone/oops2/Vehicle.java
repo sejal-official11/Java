@@ -4,10 +4,10 @@ public class Vehicle {
 
     int wheelsCount;
     String model;
+    final int gears = 4;
 
-
-    Vehicle() {
-        System.out.println("Creating a vehicle instance");
+    public static void main(String[] args) {
+        Vehicle v1 = new Vehicle(2);
     }
 
     Vehicle(int wheelsCount) {
@@ -19,4 +19,10 @@ public class Vehicle {
         System.out.println("Vehicle is starting");
     }
 
+    void accelerate() {
+        System.out.println("Vehicle is accelerating");
+    }
 }
+
+
+

@@ -4,15 +4,17 @@ public class Car extends Vehicle{
 
     String color;
 
-    void start() {
+     final void accelerate() {
+        System.out.println("Car is accelerating");
+    }
 
+
+    void start() {
         Scooter scooterObj = new Scooter();
         scooterObj.braking(this);
-
         super.start();
         System.out.println(this);
         System.out.println(this.model +" car is starting");
-
     }
 
 
@@ -34,6 +36,7 @@ public class Car extends Vehicle{
         obj.start();
 
         System.out.println(obj.wheelsCount);
+        obj.accelerate();
 
 
     }
