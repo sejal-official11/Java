@@ -15,8 +15,7 @@ public class MainClass {
         obj.teachingClass = 5;
 //        obj.id = 234;
         Teacher2 t2 = new Teacher2();
-
-
+        t2.studentCount = 20;
 
     }
 }
