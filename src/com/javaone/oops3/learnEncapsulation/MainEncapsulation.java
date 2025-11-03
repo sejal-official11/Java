@@ -9,7 +9,11 @@ public class MainEncapsulation {
 //    }
 //    public void printHi(){
 //        System.out.println("Hi");
+
+
 //    }
+
+    public static final String scientifcName = "Home Sapiens";
 
     static{
         System.out.println("I am going to be the first because i am static");
